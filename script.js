@@ -27,7 +27,7 @@ function renderUI(data) {
       job.contract
     } &bull; ${
       job.location
-    }</p></div></div><div class="job-lisitng-right" id="job-listing-right"><ul><li>${
+    }</p></div></div><div class="job-lisitng-right"><ul><li>${
       job.role
     }</li> <li>${job.level}</li> ${job.languages
       .map((language) => `<li>${language}</li>`)
