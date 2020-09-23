@@ -1,12 +1,10 @@
 const container = document.getElementById("container");
 const jobListingRight = document.getElementById("job-lisiting-right");
 
-
-
 fetch("./data.json")
   .then((result) => result.json())
   .then((data) => {
-      renderUI(data)
+    renderUI(data);
   });
 
 function renderUI(data) {
@@ -39,7 +37,3 @@ function renderUI(data) {
     container.insertAdjacentHTML("beforeend", html);
   }
 }
-
-
-
-

@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1200px) {
+  .job-listing-left {
+    font-size: 90%;
+  }
+
+  .job-title {
+    font-size: 120%;
+  }
+
+  .job-lisitng-right ul li {
+    font-size: 80%;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .job-container {
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  .job-listing-left {
+    font-size: 100%;
+  }
+  .job-lisitng-right {
+    margin-top: 20px;
+  }
+  .job-lisitng-right ul li {
+    font-size: 100%;
+  }
+
+  .job-lisitng-right::before {
+    content: "";
+    width: 100%;
+    height: 6px;
+    display: block;
+    border-top: 1px solid hsl(180, 8%, 52%);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .job-container {
+    position: relative;
+    display: block;
+    margin-bottom: 80px;
+  }
+
+  .job-listing-left img {
+    position: absolute;
+    top: -50px;
+    
+  }
+
+  .job-listing-left {
+    margin-top: 30px;
+  }
+}
